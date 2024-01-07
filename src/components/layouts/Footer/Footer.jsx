@@ -1,6 +1,6 @@
 import React from 'react'
 import Logo from '../../../assets/Logo.png'
-import {Instagram , Twitter,Facebook} from 'lucide-react'
+import { Instagram, Twitter, Facebook } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -23,16 +23,16 @@ const Footer = () => {
           <li><a href="/">Contact Us</a></li>
         </ul>
       </div>
-      <div className=' flex flex-col justify-between lg:ml-auto lg:mx-0 mx-auto'>
+      <div className=' flex flex-col justify-between items-center lg:ml-auto lg:mx-0 mx-auto'>
         <div className='space-y-4 mb-4'>
-        <h1 className=' lg:text-xl text-lg font-bold text-primary'>Social Links</h1>
-        <div className=' text-primary flex gap-8'>
-          <Instagram size={'18px'} />
-          <Twitter size={'18px'} fill='#0E2368'  />
-          <Facebook size={'18px'}/>
+          <h1 className=' text-center lg:text-xl text-lg font-bold text-primary'>Social Links</h1>
+          <div className=' text-primary flex gap-8'>
+            <Instagram size={'18px'} />
+            <Twitter size={'18px'} fill='#0E2368' />
+            <Facebook size={'18px'} />
+          </div>
         </div>
-        </div>
-       
+
         <p className=' mt-auto text-gray-500'>@ 2022 Food Example</p>
       </div>
     </div>
